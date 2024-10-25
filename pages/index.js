@@ -8,8 +8,8 @@ function HomePage(props){
         <div>
             <Head>
                   <title>NextJS Events</title>
-                  <meta name="description" content="Find a lot of great events 
-                  that all you to evolve..."/>
+                  <meta name="description" 
+                  content="Find a lot of great events that all you to evolve..."/>
             </Head>
             <EventList items={props.events}/>
         </div>   
